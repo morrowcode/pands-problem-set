@@ -15,6 +15,7 @@ tdat = ("T")
 
 #square brackets for where in the word to look - tdat for what to look for
 if day[0] in tdat:
+    # Format for changing the letter so it will change the print statement
     print("Yes - today begins with a {}.".format(tdat))
 else:
     print("No - today does not begin with a {}.".format(tdat))
