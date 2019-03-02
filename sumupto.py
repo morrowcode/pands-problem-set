@@ -19,7 +19,7 @@ elif n == 1:
 else:
     while n > 0:
         #total is for the rolling total of integers between 0 and the user input one
-        total = total + n
+        total += n
         #taking 1 away each 'loop' until n = o (won't end up being less than)
-        n = n - 1
+        n -= 1
     print (total)
