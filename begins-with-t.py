@@ -19,6 +19,3 @@ if day[0] in tdat:
     print("Yes - today begins with a {}.".format(tdat))
 else:
     print("No - today does not begin with a {}.".format(tdat))
-
-#Commented out - used to make sure I'm definately getting day info through
-#print (day)

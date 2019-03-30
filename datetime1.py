@@ -4,8 +4,11 @@
 #Colin Morrow
 #25/03/2019
 
+#Importing datetime module
 from datetime import datetime
 
+##Datetime for now
 now = datetime.now()
 
+#Printed datetime now in correct format
 print (now.strftime('%A, %B %d %Y at %I:%M%p'))
