@@ -20,6 +20,6 @@ if n > 1:
     #...otherwise its a prime number
     else:
         print(n,"is a prime number")
-#'Else' from top 'if' statement
+#'else' from top 'if' statement
 else:
     print(n,"is a prime number")
